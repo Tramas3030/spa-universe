@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+:root {
+    font-size: 62.5%;
+}
+    
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    color: #E1E1E6
+}
+    
+nav {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    margin-top: 4rem;
+    margin-left: 7.2rem;
+    gap: 3.2rem;
+    align-items: center;
+}
+    
+nav button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+    transition: transform 0.2s ease;
+}
+    
+nav button:hover {
+    transform: scale(1.12);
+}
+    
+nav a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #C4C4CC;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #7047cf;
+}
+    
+.activated {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+    
+.page {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+    
+.home {
+    background-image: url(images/mountains-universe-1.png);
+}
+    
+.heading-and-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 40rem;
+    height: 10rem;
+}
+    
+.heading-and-button h1 {
+    margin-top: 29.4rem;
+    color: white;
+    text-align: center;
+    font-size: 4.2rem;
+}
+    
+.heading-and-button button {
+    background: transparent;
+    border: 2.5px solid white;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 1.2rem 3.2rem 1.2rem;
+    width: 19.5rem;
+    height: 4.8rem;
+    font-size: 1.6rem;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-top: 2.4rem;
+    
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+    
+.heading-and-button button:hover {
+    background-color: white;
+    color: rgb(2, 163, 163);
+} 
+    
+.universe {
+    background-image: url(images/mountains-universe02.png);
+}
+    
+.universe, .explorer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.universe h1, .universe p,
+.explorer h1, .explorer p {
+    position: absolute;
+}
+    
+.universe h1, .explorer h1 {
+    top: 17.3rem;
+    left: 10.3rem;
+}
+    
+.universe p, .explorer p {
+    top: 25.3rem;
+    left: 10.3rem;
+    width: 64.8rem;
+    height: 20.3rem;
+}
+    
+.explorer {
+    background-image: url(images/mountains-universe-3.png);
+}
