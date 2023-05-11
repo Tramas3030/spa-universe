@@ -5,8 +5,6 @@
 
 Esse projeto foi desenvolvido para treinar o Single page application ( SPA ), nesse projeto o usuário terá 3 páginas na qual ele poderá navegar e descobrir um pouco mais sobre o universo.
 
-Acesse por esse link: https://tramas3030.github.io/spa-universe/
-
 Projeto foi desenvolvido utilizando:
 - HTML
 - CSS
